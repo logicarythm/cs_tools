@@ -1,15 +1,15 @@
 #encoding:utf-8
 
-require 'cinch'
+require 'cinch' # 要　gem install cinch
 
 = 本番使用時のみ記入する
 bot = Cinch::Bot.new do
 configure do |c|
-c.server = "irc.paperboy.co.jp"
+c.server = ""
 c.ssl.use = true
-c.port = 0000
+c.port = 
 c.password = '***'
-c.channels = ["#bot_test"] 
+c.channels = [""] 
 c.nick = 'jihou_bot'
 end
 

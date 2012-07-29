@@ -1,14 +1,14 @@
 #encoding:utf-8
 
-require 'cinch'
+require 'cinch' # 要　gem install cinch
 
 bot = Cinch::Bot.new do
 configure do |c|
-c.server = "irc.paperboy.co.jp"
+c.server = ""
 c.ssl.use = true
-c.port = 6668
+c.port = 
 c.password = '******'
-c.channels = ["#bot_test"] 
+c.channels = [""] 
 c.nick = 'mazoi_bot'
 end
 
