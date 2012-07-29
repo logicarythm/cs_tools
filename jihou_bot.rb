@@ -13,14 +13,12 @@ c.channels = [""]
 c.nick = 'jihou_bot'
 end
 
-on :message, // do |m|
-m.reply""
-end
+t = Time.now
 
-on :message, // do |m|
-m.reply""
-m.reply""
-end
+
+case t
+when t.hour == 9 && t.min == 00
+     
 
 end
 
